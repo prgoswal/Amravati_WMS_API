@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AmravatiUniversity_API.Controllers.DocumentApprovalController">
+    <Position X="12" Y="6.5" Width="2.25" />
+    <AssociationLine Name="ObjPldocumentApproval" Type="AmravatiUniversity_API.Models.PL.PL_DocumentApprovalLevel" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.438" Y="6.5" />
+        <Point X="12.438" Y="2.555" />
+        <Point X="10.312" Y="2.555" />
+        <Point X="10.312" Y="2.18" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.892" Y="0.525" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAIAAAAACAAAAAAIAACEAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\DocumentApprovalController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ObjDldocumentApproval" />
+      <Field Name="ObjPldocumentApproval" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Controllers.LoginController">
+    <Position X="0.75" Y="6.5" Width="2.25" />
+    <Members>
+      <Method Name="Get" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgASAAIBwAAIjCAAAAAgAAAAAAAAAAAAAQAYAGIAg=</HashCode>
+      <FileName>Controllers\LoginController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="objdllogin" />
+      <Field Name="objpllogin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Controllers.PrintController">
+    <Position X="16.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAABABAAAAAAAAAIAIAAAA=</HashCode>
+      <FileName>Controllers\PrintController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="objDlPrint" />
+      <Field Name="objPlPrint" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Controllers.ProfileController">
+    <Position X="3.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAQBQACACA=</HashCode>
+      <FileName>Controllers\ProfileController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ObjDlProfile" />
+      <Field Name="ObjPlProfile" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Controllers.SecondLevelController">
+    <Position X="9.25" Y="6.5" Width="2.5" />
+    <Members>
+      <Method Name="Delete" Hidden="true" />
+      <Method Name="Post" Hidden="true" />
+      <Method Name="Put" Hidden="true" />
+    </Members>
+    <AssociationLine Name="objPlSecondlevel" Type="AmravatiUniversity_API.Models.PL.PL_SecondLevel" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.438" Y="6.5" />
+        <Point X="10.438" Y="3.654" />
+        <Point X="9" Y="3.654" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAGAAIAAAAICAFoAAAAEAAAAAgIAAg=</HashCode>
+      <FileName>Controllers\SecondLevelController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="objDlSecondlevel" />
+      <Field Name="objPlSecondlevel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Controllers.StudentDetailController">
+    <Position X="7.25" Y="6.5" Width="1.75" />
+    <Members>
+      <Method Name="Delete" Hidden="true" />
+      <Method Name="Post" Hidden="true" />
+      <Method Name="Put" Hidden="true" />
+    </Members>
+    <AssociationLine Name="objPL_StudentDetail" Type="AmravatiUniversity_API.Models.PL.PL_StudentDetail" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.875" Y="6.5" />
+        <Point X="7.875" Y="6.125" />
+        <Point X="6.5" Y="6.125" />
+        <Point X="6.5" Y="3.911" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.606" Y="1.873" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAgAQAAEBAAQAIAAACAMAAAAQEAAgAAAAABg=</HashCode>
+      <FileName>Controllers\StudentDetailController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="objDL_StudentDetail" />
+      <Field Name="objPL_StudentDetail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Controllers.UserCreationController">
+    <Position X="5" Y="6.5" Width="2" />
+    <Members>
+      <Method Name="Delete" Hidden="true" />
+      <Field Name="dt" Hidden="true" />
+      <Method Name="Get" Hidden="true" />
+      <Method Name="Put" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAIABAAABABIAACAAAAQEAABAAAAQgAAAAAAg=</HashCode>
+      <FileName>Controllers\UserCreationController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ObjDl" />
+      <Field Name="ObjPl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.DL.DL_ApplicationProgress">
+    <Position X="13" Y="12.25" Width="2" />
+    <Members>
+      <Field Name="msg" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQCAAAIAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Models\DL\DL_ApplicationProgress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.DL.DL_DocumentApprovalLevel">
+    <Position X="11" Y="12.25" Width="1.75" />
+    <Members>
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="dt" Hidden="true" />
+      <Field Name="msg" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIAAAAASAAAAAAQAACEAAEAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Models\DL\DL_DocumentApprovalLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.DL.DL_Print">
+    <Position X="15.25" Y="12.25" Width="1.5" />
+    <Members>
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="dt" Hidden="true" />
+      <Field Name="msg" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAAAQAAAAAAQAAAAAAAAAAAAQAIAIAAAA=</HashCode>
+      <FileName>Models\DL\DL_Print.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.DL.DL_ProfileCreation">
+    <Position X="2.75" Y="12.25" Width="1.5" />
+    <Members>
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="dt" Hidden="true" />
+      <Field Name="msg" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQAAAAAARAAAAAAAAAAAAQQBQAAAAA=</HashCode>
+      <FileName>Models\DL\DL_ProfileCreation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.DL.DL_SecondLevel">
+    <Position X="8.75" Y="12.25" Width="2" />
+    <Members>
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="ds" Hidden="true" />
+      <Field Name="dt" Hidden="true" />
+      <Field Name="j" Hidden="true" />
+      <Field Name="msg" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAUCAAoAAQAIAAgAAAAAAAUGAAhIAAA=</HashCode>
+      <FileName>Models\DL\DL_SecondLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.DL.DL_StudentDetail">
+    <Position X="6.75" Y="12.25" Width="1.75" />
+    <Members>
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="dt" Hidden="true" />
+      <Field Name="msg" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAAgAAAAAABQAAQDAAQAIQAAAAKAAAAAEAQgAAAAAIA=</HashCode>
+      <FileName>Models\DL\DL_StudentDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.DL.Dl_UserCreation">
+    <Position X="4.5" Y="12.25" Width="2" />
+    <Members>
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="dt" Hidden="true" />
+      <Field Name="msg" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAgAEAAIABAAAQABAAACQAAAQAAABAAAAQgAAAAAAA=</HashCode>
+      <FileName>Models\DL\Dl_UserCreation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.DL_Login">
+    <Position X="0.5" Y="12.25" Width="2" />
+    <Members>
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="dt" Hidden="true" />
+      <Field Name="msg" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIgASAAMBxAAIyDAAAACwAAAAAAAAAAAAQQCYAGAAw=</HashCode>
+      <FileName>Models\DL\DL_Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.PL.PL_ApplicationProgress">
+    <Position X="11.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Models\PL\PL_ApplicationProgress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.PL.PL_DocumentApprovalLevel">
+    <Position X="9.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAQAAGA=</HashCode>
+      <FileName>Models\PL\PL_DocumentApprovalLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.PL.PL_Login">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Property Name="DateUserCnt" Hidden="true" />
+      <Property Name="dt" Hidden="true" />
+      <Property Name="GroupDesc" Hidden="true" />
+      <Property Name="GroupID" Hidden="true" />
+      <Property Name="Ind" Hidden="true" />
+      <Property Name="ItemDesc" Hidden="true" />
+      <Property Name="ItemID" Hidden="true" />
+      <Property Name="OrderPriority" Hidden="true" />
+      <Property Name="Remark" Hidden="true" />
+      <Property Name="UserInd" Hidden="true" />
+      <Property Name="UserTypeId" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIIAAADAkREAAAgAgkAAAAAAAAYCAAAAASA=</HashCode>
+      <FileName>Models\PL\PL_Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.PL.PL_Print">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEACAAAAAAABAAQAAAAAEAgAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Models\PL\PL_Print.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.PL.PL_ProfileCreation">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Models\PL\PL_ProfileCreation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.PL.PL_SecondLevel">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Property Name="acnt" Hidden="true" />
+      <Property Name="ApprovalCount" Hidden="true" />
+      <Property Name="BranchName" Hidden="true" />
+      <Property Name="CGPA" Hidden="true" />
+      <Property Name="DocType" Hidden="true" />
+      <Property Name="DocTypeID" Hidden="true" />
+      <Property Name="DocumentType" Hidden="true" />
+      <Property Name="ds" Hidden="true" />
+      <Property Name="dt" Hidden="true" />
+      <Property Name="EntryByIP" Hidden="true" />
+      <Property Name="EstimateDate" Hidden="true" />
+      <Property Name="Ind" Hidden="true" />
+      <Property Name="InsertionBy" Hidden="true" />
+      <Property Name="InsertionByIP" Hidden="true" />
+      <Property Name="InserttionDate" Hidden="true" />
+      <Property Name="isconfirmed" Hidden="true" />
+      <Property Name="ItemDesc" Hidden="true" />
+      <Property Name="itemId" Hidden="true" />
+      <Property Name="OccCtrl" Hidden="true" />
+      <Property Name="recordId" Hidden="true" />
+      <Property Name="SName" Hidden="true" />
+      <Property Name="tbl1" Hidden="true" />
+      <Property Name="tbl2" Hidden="true" />
+      <Property Name="UserID" Hidden="true" />
+      <Property Name="UserTypeId" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AiCiBACBBI7LAAQQAQAEAAgAEBACAIQUAARDAAhIISA=</HashCode>
+      <FileName>Models\PL\PL_SecondLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.PL.PL_StudentDetail">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Property Name="BankName" Hidden="true" />
+      <Property Name="ChequeDDDate" Hidden="true" />
+      <Property Name="ChequeDDNo" Hidden="true" />
+      <Property Name="DocumentType" Hidden="true" />
+      <Property Name="dt" Hidden="true" />
+      <Property Name="EstimateDate" Hidden="true" />
+      <Property Name="FilePath" Hidden="true" />
+      <Property Name="ForApplication" Hidden="true" />
+      <Property Name="FromDate" Hidden="true" />
+      <Property Name="Ind" Hidden="true" />
+      <Property Name="InsertionBy" Hidden="true" />
+      <Property Name="InsertionByIP" Hidden="true" />
+      <Property Name="InserttionDate" Hidden="true" />
+      <Property Name="ItemDesc" Hidden="true" />
+      <Property Name="itemId" Hidden="true" />
+      <Property Name="LevelID" Hidden="true" />
+      <Property Name="LevelProfile" Hidden="true" />
+      <Property Name="PaymentMode" Hidden="true" />
+      <Property Name="ReceiptAMT" Hidden="true" />
+      <Property Name="ReceiptDate" Hidden="true" />
+      <Property Name="ReceiptNo" Hidden="true" />
+      <Property Name="Remarks" Hidden="true" />
+      <Property Name="SName" Hidden="true" />
+      <Property Name="ToDate" Hidden="true" />
+      <Property Name="UserID" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AiCABACBhIDBACAQAQAEFAgBAAQAAIQEADRBBAwJAWA=</HashCode>
+      <FileName>Models\PL\PL_StudentDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Models.PL.PL_UserCreation">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Members>
+      <Property Name="City" Hidden="true" />
+      <Property Name="CreationDate" Hidden="true" />
+      <Property Name="EmployeeID" Hidden="true" />
+      <Property Name="Ind" Hidden="true" />
+      <Property Name="InvalidAttempt" Hidden="true" />
+      <Property Name="IsActive" Hidden="true" />
+      <Property Name="IsOutSideUser" Hidden="true" />
+      <Property Name="ItemID" Hidden="true" />
+      <Property Name="LockId" Hidden="true" />
+      <Property Name="State" Hidden="true" />
+      <Property Name="UserId" Hidden="true" />
+      <Property Name="UserLoginId" Hidden="true" />
+      <Property Name="UserState" Hidden="true" />
+      <Property Name="UserType" Hidden="true" />
+      <Property Name="UserTypeID" Hidden="true" />
+      <Property Name="UserValidity" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QQIAAAAAAKAACACLkAEAAQgAAAAACAACAYAChBEAACA=</HashCode>
+      <FileName>Models\PL\PL_UserCreation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmravatiUniversity_API.Controllers.ApplicationProgressController">
+    <Position X="14.5" Y="6.5" Width="2" />
+    <AssociationLine Name="plapplicationprogress" Type="AmravatiUniversity_API.Models.PL.PL_ApplicationProgress">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.001" Y="0.102" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACCAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ApplicationProgressController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dlapplicationprogress" />
+      <Field Name="plapplicationprogress" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
