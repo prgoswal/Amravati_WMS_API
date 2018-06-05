@@ -44,6 +44,16 @@ namespace AmravatiUniversity_API.Models.DL
         //    return dt;
 
         //}
+        public DataTable GetZerolevelProcess(PL_ApplicationProgress pl)
+        {
+            SqlCommand cmd = new SqlCommand("SPApplicationEntry", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter ad = new SqlDataAdapter();
+            DataTable dt = new DataTable();
+            ad.Fill(dt);
+            return dt;
+
+        }
     }
 
 
